@@ -7,29 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA8555BF25E059030003A033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8555BE25E059030003A033 /* AppDelegate.swift */; };
-		CA8555C125E059030003A033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8555C025E059030003A033 /* SceneDelegate.swift */; };
-		CA8555C325E059030003A033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8555C225E059030003A033 /* ViewController.swift */; };
-		CA8555C625E059030003A033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8555C425E059030003A033 /* Main.storyboard */; };
-		CA8555C925E059030003A033 /* CallBro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA8555C725E059030003A033 /* CallBro.xcdatamodeld */; };
-		CA8555CB25E059050003A033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8555CA25E059050003A033 /* Assets.xcassets */; };
-		CA8555CE25E059050003A033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8555CC25E059050003A033 /* LaunchScreen.storyboard */; };
+		CA2A428E25BB6BC4000EAA47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A428D25BB6BC4000EAA47 /* CustomButton.swift */; };
+		CA2A429025BB6C14000EAA47 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A428F25BB6C14000EAA47 /* CustomLabel.swift */; };
+		CA2A429225BB6C6A000EAA47 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A429125BB6C6A000EAA47 /* CustomTextField.swift */; };
+		CA2A429625BB753D000EAA47 /* ContactInfoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A429525BB753D000EAA47 /* ContactInfoComponent.swift */; };
+		CA2A429F25BB7DC7000EAA47 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A429E25BB7DC7000EAA47 /* ViewExtensions.swift */; };
+		CA5C697525DAFAB400719D4C /* ContactDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C697425DAFAB400719D4C /* ContactDetailScreen.swift */; };
+		CA76D86325DC52DC00B6A015 /* NewContactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76D86225DC52DC00B6A015 /* NewContactInteractor.swift */; };
+		CA76D86725DC578700B6A015 /* NewContactInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76D86625DC578700B6A015 /* NewContactInteractorInput.swift */; };
+		CA7889C025B779C50077DE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7889BF25B779C50077DE74 /* AppDelegate.swift */; };
+		CA7889C225B779C50077DE74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7889C125B779C50077DE74 /* SceneDelegate.swift */; };
+		CA7889C425B779C50077DE74 /* ContactsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7889C325B779C50077DE74 /* ContactsScreen.swift */; };
+		CA7889CA25B779C50077DE74 /* CallBro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA7889C825B779C50077DE74 /* CallBro.xcdatamodeld */; };
+		CA7889CC25B779C70077DE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7889CB25B779C70077DE74 /* Assets.xcassets */; };
+		CA7889CF25B779C70077DE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7889CD25B779C70077DE74 /* LaunchScreen.storyboard */; };
+		CA8948FC25BA28FB00ED48AD /* NewContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8948FB25BA28FB00ED48AD /* NewContactScreen.swift */; };
+		CA99621B25C16CC6001EB6CD /* NewContactScreenOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99621A25C16CC6001EB6CD /* NewContactScreenOutput.swift */; };
+		CA99621D25C16DAC001EB6CD /* ContactsScreenOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99621C25C16DAC001EB6CD /* ContactsScreenOutput.swift */; };
+		CA99621F25C1C688001EB6CD /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99621E25C1C688001EB6CD /* ContactsPresenter.swift */; };
+		CA99622325C1C769001EB6CD /* ContactsModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99622225C1C769001EB6CD /* ContactsModuleOutput.swift */; };
+		CA9CD0CA25B8CD54003D7813 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CD0C925B8CD54003D7813 /* ContactModel.swift */; };
+		CA9CD0CD25B8D591003D7813 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CD0CC25B8D591003D7813 /* TableView.swift */; };
+		CA9CD0D225B8D7B8003D7813 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CD0D125B8D7B8003D7813 /* ViewConfiguration.swift */; };
+		CAA6C32325BF63E800DADAAF /* NewContactModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C32225BF63E800DADAAF /* NewContactModuleAssembly.swift */; };
+		CAA6C32825BF6DB800DADAAF /* NewContactRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C32725BF6DB800DADAAF /* NewContactRouter.swift */; };
+		CAA6C33725BF706600DADAAF /* ContactsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C33625BF706600DADAAF /* ContactsRouter.swift */; };
+		CAA6C33C25C06D2000DADAAF /* ContactsModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C33B25C06D2000DADAAF /* ContactsModuleAssembly.swift */; };
+		CAA6C34125C0708A00DADAAF /* NewContactScreenInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C34025C0708A00DADAAF /* NewContactScreenInput.swift */; };
+		CAA6C34325C0710B00DADAAF /* ContactsScreenInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6C34225C0710B00DADAAF /* ContactsScreenInput.swift */; };
+		CADAFAC425BC2D8C00CE37F6 /* InputElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADAFAC325BC2D8C00CE37F6 /* InputElement.swift */; };
+		CADAFAC825BC77F900CE37F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADAFAC725BC77F800CE37F6 /* Main.storyboard */; };
+		CAE1352725C20BA700362EED /* NewContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1352625C20BA700362EED /* NewContactPresenter.swift */; };
+		CAE1352925C20BC700362EED /* NewContactModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1352825C20BC700362EED /* NewContactModuleInput.swift */; };
+		CAE1352B25C20BDD00362EED /* NewContactModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1352A25C20BDD00362EED /* NewContactModuleOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA8555BB25E059030003A033 /* CallBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA8555BE25E059030003A033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA8555C025E059030003A033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA8555C225E059030003A033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA8555C525E059030003A033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA8555C825E059030003A033 /* CallBro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CallBro.xcdatamodel; sourceTree = "<group>"; };
-		CA8555CA25E059050003A033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA8555CD25E059050003A033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA8555CF25E059050003A033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2A428D25BB6BC4000EAA47 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CA2A428F25BB6C14000EAA47 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		CA2A429125BB6C6A000EAA47 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CA2A429525BB753D000EAA47 /* ContactInfoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoComponent.swift; sourceTree = "<group>"; };
+		CA2A429E25BB7DC7000EAA47 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		CA5C697425DAFAB400719D4C /* ContactDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailScreen.swift; sourceTree = "<group>"; };
+		CA76D86225DC52DC00B6A015 /* NewContactInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactInteractor.swift; sourceTree = "<group>"; };
+		CA76D86625DC578700B6A015 /* NewContactInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactInteractorInput.swift; sourceTree = "<group>"; };
+		CA7889BC25B779C50077DE74 /* CallBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7889BF25B779C50077DE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA7889C125B779C50077DE74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA7889C325B779C50077DE74 /* ContactsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreen.swift; sourceTree = "<group>"; };
+		CA7889C925B779C50077DE74 /* CallBro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CallBro.xcdatamodel; sourceTree = "<group>"; };
+		CA7889CB25B779C70077DE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA7889CE25B779C70077DE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA7889D025B779C70077DE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "CallBro/Supporting files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		CA8948FB25BA28FB00ED48AD /* NewContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactScreen.swift; sourceTree = "<group>"; };
+		CA99621A25C16CC6001EB6CD /* NewContactScreenOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactScreenOutput.swift; sourceTree = "<group>"; };
+		CA99621C25C16DAC001EB6CD /* ContactsScreenOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreenOutput.swift; sourceTree = "<group>"; };
+		CA99621E25C1C688001EB6CD /* ContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
+		CA99622225C1C769001EB6CD /* ContactsModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModuleOutput.swift; sourceTree = "<group>"; };
+		CA9CD0C925B8CD54003D7813 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		CA9CD0CC25B8D591003D7813 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		CA9CD0D125B8D7B8003D7813 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		CAA6C32225BF63E800DADAAF /* NewContactModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactModuleAssembly.swift; sourceTree = "<group>"; };
+		CAA6C32725BF6DB800DADAAF /* NewContactRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactRouter.swift; sourceTree = "<group>"; };
+		CAA6C33625BF706600DADAAF /* ContactsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRouter.swift; sourceTree = "<group>"; };
+		CAA6C33B25C06D2000DADAAF /* ContactsModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModuleAssembly.swift; sourceTree = "<group>"; };
+		CAA6C34025C0708A00DADAAF /* NewContactScreenInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactScreenInput.swift; sourceTree = "<group>"; };
+		CAA6C34225C0710B00DADAAF /* ContactsScreenInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreenInput.swift; sourceTree = "<group>"; };
+		CADAFAC325BC2D8C00CE37F6 /* InputElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputElement.swift; sourceTree = "<group>"; };
+		CADAFAC725BC77F800CE37F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CAE1352625C20BA700362EED /* NewContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactPresenter.swift; sourceTree = "<group>"; };
+		CAE1352825C20BC700362EED /* NewContactModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactModuleInput.swift; sourceTree = "<group>"; };
+		CAE1352A25C20BDD00362EED /* NewContactModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactModuleOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CA8555B825E059030003A033 /* Frameworks */ = {
+		CA7889B925B779C50077DE74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,47 +91,241 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA8555B225E059030003A033 = {
+		CA189F3B25DAC7D40018A338 /* Contact Details */ = {
 			isa = PBXGroup;
 			children = (
-				CA8555BD25E059030003A033 /* CallBro */,
-				CA8555BC25E059030003A033 /* Products */,
+				CA5C692C25DAF8CB00719D4C /* View */,
+			);
+			path = "Contact Details";
+			sourceTree = "<group>";
+		};
+		CA2A428B25BB6A62000EAA47 /* CommonElements */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A428D25BB6BC4000EAA47 /* CustomButton.swift */,
+				CA2A428F25BB6C14000EAA47 /* CustomLabel.swift */,
+				CA2A429125BB6C6A000EAA47 /* CustomTextField.swift */,
+			);
+			path = CommonElements;
+			sourceTree = "<group>";
+		};
+		CA2A428C25BB6ABE000EAA47 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CADAFAC725BC77F800CE37F6 /* Main.storyboard */,
+				CA7889CB25B779C70077DE74 /* Assets.xcassets */,
+				CA7889CD25B779C70077DE74 /* LaunchScreen.storyboard */,
+				CA7889D025B779C70077DE74 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		CA2A429325BB6CC0000EAA47 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1352625C20BA700362EED /* NewContactPresenter.swift */,
+				CAE1352825C20BC700362EED /* NewContactModuleInput.swift */,
+				CAE1352A25C20BDD00362EED /* NewContactModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CA2A429425BB6EBD000EAA47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA8948FB25BA28FB00ED48AD /* NewContactScreen.swift */,
+				CAA6C34025C0708A00DADAAF /* NewContactScreenInput.swift */,
+				CA99621A25C16CC6001EB6CD /* NewContactScreenOutput.swift */,
+				CA2A429725BB759A000EAA47 /* EnterInfoComponent */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA2A429725BB759A000EAA47 /* EnterInfoComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A429525BB753D000EAA47 /* ContactInfoComponent.swift */,
+				CADAFAC325BC2D8C00CE37F6 /* InputElement.swift */,
+			);
+			path = EnterInfoComponent;
+			sourceTree = "<group>";
+		};
+		CA2A429D25BB7DA9000EAA47 /* View Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A429E25BB7DC7000EAA47 /* ViewExtensions.swift */,
+			);
+			path = "View Extensions";
+			sourceTree = "<group>";
+		};
+		CA5C692C25DAF8CB00719D4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA5C697425DAFAB400719D4C /* ContactDetailScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA753C8325C0C0510053F865 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A429D25BB7DA9000EAA47 /* View Extensions */,
+				CA2A428B25BB6A62000EAA47 /* CommonElements */,
+				CA9CD0CE25B8D778003D7813 /* Protocols */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA76D86125DC52AC00B6A015 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D86225DC52DC00B6A015 /* NewContactInteractor.swift */,
+				CA76D86625DC578700B6A015 /* NewContactInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CA7889B325B779C50077DE74 = {
+			isa = PBXGroup;
+			children = (
+				CA7889BE25B779C50077DE74 /* CallBro */,
+				CA7889BD25B779C50077DE74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CA8555BC25E059030003A033 /* Products */ = {
+		CA7889BD25B779C50077DE74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA8555BB25E059030003A033 /* CallBro.app */,
+				CA7889BC25B779C50077DE74 /* CallBro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA8555BD25E059030003A033 /* CallBro */ = {
+		CA7889BE25B779C50077DE74 /* CallBro */ = {
 			isa = PBXGroup;
 			children = (
-				CA8555BE25E059030003A033 /* AppDelegate.swift */,
-				CA8555C025E059030003A033 /* SceneDelegate.swift */,
-				CA8555C225E059030003A033 /* ViewController.swift */,
-				CA8555C425E059030003A033 /* Main.storyboard */,
-				CA8555CA25E059050003A033 /* Assets.xcassets */,
-				CA8555CC25E059050003A033 /* LaunchScreen.storyboard */,
-				CA8555CF25E059050003A033 /* Info.plist */,
-				CA8555C725E059030003A033 /* CallBro.xcdatamodeld */,
+				CAA6C33125BF6FA200DADAAF /* Common */,
+				CA189F3B25DAC7D40018A338 /* Contact Details */,
+				CA9CD0C525B8CC82003D7813 /* Contacts */,
+				CA9CD0C725B8CCB6003D7813 /* NewContact */,
+				CA2A428C25BB6ABE000EAA47 /* Supporting files */,
+				CA7889C825B779C50077DE74 /* CallBro.xcdatamodeld */,
 			);
 			path = CallBro;
+			sourceTree = "<group>";
+		};
+		CA8948FD25BA2EF100ED48AD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA99621E25C1C688001EB6CD /* ContactsPresenter.swift */,
+				CA99622225C1C769001EB6CD /* ContactsModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CA9CD0C525B8CC82003D7813 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C33A25C06CE800DADAAF /* Assembly */,
+				CA8948FD25BA2EF100ED48AD /* Presenter */,
+				CAA6C33525BF702D00DADAAF /* Router */,
+				CA9CD0CB25B8CE0A003D7813 /* View */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		CA9CD0C725B8CCB6003D7813 /* NewContact */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C32125BF635700DADAAF /* Assembly */,
+				CA76D86125DC52AC00B6A015 /* Interactor */,
+				CA2A429325BB6CC0000EAA47 /* Presenter */,
+				CAA6C32625BF6D7500DADAAF /* Router */,
+				CA2A429425BB6EBD000EAA47 /* View */,
+			);
+			path = NewContact;
+			sourceTree = "<group>";
+		};
+		CA9CD0CB25B8CE0A003D7813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA7889C325B779C50077DE74 /* ContactsScreen.swift */,
+				CAA6C34225C0710B00DADAAF /* ContactsScreenInput.swift */,
+				CA99621C25C16DAC001EB6CD /* ContactsScreenOutput.swift */,
+				CA9CD0CC25B8D591003D7813 /* TableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA9CD0CE25B8D778003D7813 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CD0D125B8D7B8003D7813 /* ViewConfiguration.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CAA6C32125BF635700DADAAF /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C32225BF63E800DADAAF /* NewContactModuleAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CAA6C32625BF6D7500DADAAF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C32725BF6DB800DADAAF /* NewContactRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CAA6C33125BF6FA200DADAAF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA7889C125B779C50077DE74 /* SceneDelegate.swift */,
+				CA7889BF25B779C50077DE74 /* AppDelegate.swift */,
+				CAA6C33425BF6FEC00DADAAF /* Entity */,
+				CA753C8325C0C0510053F865 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CAA6C33425BF6FEC00DADAAF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CD0C925B8CD54003D7813 /* ContactModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CAA6C33525BF702D00DADAAF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C33625BF706600DADAAF /* ContactsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CAA6C33A25C06CE800DADAAF /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6C33B25C06D2000DADAAF /* ContactsModuleAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA8555BA25E059030003A033 /* CallBro */ = {
+		CA7889BB25B779C50077DE74 /* CallBro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA8555D225E059050003A033 /* Build configuration list for PBXNativeTarget "CallBro" */;
+			buildConfigurationList = CA7889D325B779C70077DE74 /* Build configuration list for PBXNativeTarget "CallBro" */;
 			buildPhases = (
-				CA8555B725E059030003A033 /* Sources */,
-				CA8555B825E059030003A033 /* Frameworks */,
-				CA8555B925E059030003A033 /* Resources */,
+				CA7889B825B779C50077DE74 /* Sources */,
+				CA7889B925B779C50077DE74 /* Frameworks */,
+				CA7889BA25B779C50077DE74 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,24 +333,25 @@
 			);
 			name = CallBro;
 			productName = CallBro;
-			productReference = CA8555BB25E059030003A033 /* CallBro.app */;
+			productReference = CA7889BC25B779C50077DE74 /* CallBro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CA8555B325E059030003A033 /* Project object */ = {
+		CA7889B425B779C50077DE74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Me;
 				TargetAttributes = {
-					CA8555BA25E059030003A033 = {
-						CreatedOnToolsVersion = 12.4;
+					CA7889BB25B779C50077DE74 = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = CA8555B625E059030003A033 /* Build configuration list for PBXProject "CallBro" */;
+			buildConfigurationList = CA7889B725B779C50077DE74 /* Build configuration list for PBXProject "CallBro" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +359,74 @@
 				en,
 				Base,
 			);
-			mainGroup = CA8555B225E059030003A033;
-			productRefGroup = CA8555BC25E059030003A033 /* Products */;
+			mainGroup = CA7889B325B779C50077DE74;
+			productRefGroup = CA7889BD25B779C50077DE74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA8555BA25E059030003A033 /* CallBro */,
+				CA7889BB25B779C50077DE74 /* CallBro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CA8555B925E059030003A033 /* Resources */ = {
+		CA7889BA25B779C50077DE74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8555CE25E059050003A033 /* LaunchScreen.storyboard in Resources */,
-				CA8555CB25E059050003A033 /* Assets.xcassets in Resources */,
-				CA8555C625E059030003A033 /* Main.storyboard in Resources */,
+				CADAFAC825BC77F900CE37F6 /* Main.storyboard in Resources */,
+				CA7889CF25B779C70077DE74 /* LaunchScreen.storyboard in Resources */,
+				CA7889CC25B779C70077DE74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA8555B725E059030003A033 /* Sources */ = {
+		CA7889B825B779C50077DE74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8555C325E059030003A033 /* ViewController.swift in Sources */,
-				CA8555BF25E059030003A033 /* AppDelegate.swift in Sources */,
-				CA8555C125E059030003A033 /* SceneDelegate.swift in Sources */,
-				CA8555C925E059030003A033 /* CallBro.xcdatamodeld in Sources */,
+				CAA6C34125C0708A00DADAAF /* NewContactScreenInput.swift in Sources */,
+				CA7889C425B779C50077DE74 /* ContactsScreen.swift in Sources */,
+				CA76D86325DC52DC00B6A015 /* NewContactInteractor.swift in Sources */,
+				CA2A429225BB6C6A000EAA47 /* CustomTextField.swift in Sources */,
+				CAE1352B25C20BDD00362EED /* NewContactModuleOutput.swift in Sources */,
+				CA99621F25C1C688001EB6CD /* ContactsPresenter.swift in Sources */,
+				CAA6C33C25C06D2000DADAAF /* ContactsModuleAssembly.swift in Sources */,
+				CAA6C33725BF706600DADAAF /* ContactsRouter.swift in Sources */,
+				CA2A429025BB6C14000EAA47 /* CustomLabel.swift in Sources */,
+				CA99621D25C16DAC001EB6CD /* ContactsScreenOutput.swift in Sources */,
+				CA2A429F25BB7DC7000EAA47 /* ViewExtensions.swift in Sources */,
+				CA5C697525DAFAB400719D4C /* ContactDetailScreen.swift in Sources */,
+				CA76D86725DC578700B6A015 /* NewContactInteractorInput.swift in Sources */,
+				CA9CD0CD25B8D591003D7813 /* TableView.swift in Sources */,
+				CA99622325C1C769001EB6CD /* ContactsModuleOutput.swift in Sources */,
+				CA2A428E25BB6BC4000EAA47 /* CustomButton.swift in Sources */,
+				CA7889C025B779C50077DE74 /* AppDelegate.swift in Sources */,
+				CAE1352925C20BC700362EED /* NewContactModuleInput.swift in Sources */,
+				CAA6C34325C0710B00DADAAF /* ContactsScreenInput.swift in Sources */,
+				CA7889C225B779C50077DE74 /* SceneDelegate.swift in Sources */,
+				CA9CD0CA25B8CD54003D7813 /* ContactModel.swift in Sources */,
+				CA99621B25C16CC6001EB6CD /* NewContactScreenOutput.swift in Sources */,
+				CADAFAC425BC2D8C00CE37F6 /* InputElement.swift in Sources */,
+				CAA6C32325BF63E800DADAAF /* NewContactModuleAssembly.swift in Sources */,
+				CAE1352725C20BA700362EED /* NewContactPresenter.swift in Sources */,
+				CA2A429625BB753D000EAA47 /* ContactInfoComponent.swift in Sources */,
+				CA9CD0D225B8D7B8003D7813 /* ViewConfiguration.swift in Sources */,
+				CA8948FC25BA28FB00ED48AD /* NewContactScreen.swift in Sources */,
+				CAA6C32825BF6DB800DADAAF /* NewContactRouter.swift in Sources */,
+				CA7889CA25B779C50077DE74 /* CallBro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA8555C425E059030003A033 /* Main.storyboard */ = {
+		CA7889CD25B779C70077DE74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA8555C525E059030003A033 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA8555CC25E059050003A033 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA8555CD25E059050003A033 /* Base */,
+				CA7889CE25B779C70077DE74 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +434,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CA8555D025E059050003A033 /* Debug */ = {
+		CA7889D125B779C70077DE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +460,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -220,7 +484,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "CallBro/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,7 +495,7 @@
 			};
 			name = Debug;
 		};
-		CA8555D125E059050003A033 /* Release */ = {
+		CA7889D225B779C70077DE74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +521,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -275,7 +539,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "CallBro/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,14 +550,14 @@
 			};
 			name = Release;
 		};
-		CA8555D325E059050003A033 /* Debug */ = {
+		CA7889D425B779C70077DE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U7SK2537U;
-				INFOPLIST_FILE = CallBro/Info.plist;
+				INFOPLIST_FILE = "CallBro/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,14 +569,14 @@
 			};
 			name = Debug;
 		};
-		CA8555D425E059050003A033 /* Release */ = {
+		CA7889D525B779C70077DE74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U7SK2537U;
-				INFOPLIST_FILE = CallBro/Info.plist;
+				INFOPLIST_FILE = "CallBro/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,20 +591,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA8555B625E059030003A033 /* Build configuration list for PBXProject "CallBro" */ = {
+		CA7889B725B779C50077DE74 /* Build configuration list for PBXProject "CallBro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA8555D025E059050003A033 /* Debug */,
-				CA8555D125E059050003A033 /* Release */,
+				CA7889D125B779C70077DE74 /* Debug */,
+				CA7889D225B779C70077DE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA8555D225E059050003A033 /* Build configuration list for PBXNativeTarget "CallBro" */ = {
+		CA7889D325B779C70077DE74 /* Build configuration list for PBXNativeTarget "CallBro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA8555D325E059050003A033 /* Debug */,
-				CA8555D425E059050003A033 /* Release */,
+				CA7889D425B779C70077DE74 /* Debug */,
+				CA7889D525B779C70077DE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -347,17 +612,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CA8555C725E059030003A033 /* CallBro.xcdatamodeld */ = {
+		CA7889C825B779C50077DE74 /* CallBro.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CA8555C825E059030003A033 /* CallBro.xcdatamodel */,
+				CA7889C925B779C50077DE74 /* CallBro.xcdatamodel */,
 			);
-			currentVersion = CA8555C825E059030003A033 /* CallBro.xcdatamodel */;
+			currentVersion = CA7889C925B779C50077DE74 /* CallBro.xcdatamodel */;
 			path = CallBro.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = CA8555B325E059030003A033 /* Project object */;
+	rootObject = CA7889B425B779C50077DE74 /* Project object */;
 }
